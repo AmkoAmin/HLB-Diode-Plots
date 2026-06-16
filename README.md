@@ -22,6 +22,9 @@ so a straight line appears in a semi-log plot of $\ln I$ vs. $U$. Fitting that l
 The fit window is selected automatically as the most linear region (highest $R^2$) of the
 forward branch — see [`src/diode.py`](src/diode.py).
 
+> 📓 Full physics background and the measurement setup (with handwritten lab notes) are in
+> [`docs/theory.md`](docs/theory.md).
+
 ## Results
 
 Shockley fit over both diodes at room temperature (RT), 60 °C and 90 °C:
@@ -60,6 +63,7 @@ src/
   compare_curves.py   SENSE on/off and temperature comparison plots
   tangent_uf.py       forward voltage U_f via tangent at 0.7 V
 figures/     generated plots (shockley / temperature / sense-comparison / tangents)
+docs/        theory & measurement background (theory.md + handwritten notes)
 ```
 
 The `figures/differential-resistance/` plots come from a separate part of the lab and are
